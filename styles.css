@@ -269,7 +269,7 @@ input,select,textarea{font-family:inherit;}
 .scan-drone::before{
   content:''; position:absolute; top:50%; left:50%; width:170px; height:170px;
   transform:translate(-50%,-50%);
-  background:url('images/hero-drone-glyph.png') center/contain no-repeat;
+  background:url('hero-drone-glyph.png') center/contain no-repeat;
   opacity:.92;
   filter:drop-shadow(0 0 3px rgba(255,255,255,.8)) drop-shadow(0 0 14px rgba(111,160,255,.55));
   animation:logo-roam 40s ease-in-out infinite;
