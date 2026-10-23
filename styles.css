@@ -631,7 +631,9 @@ html,body{overflow-x:clip;}
   .cta-band{flex-direction:column; align-items:flex-start;}
   .footer-grid{grid-template-columns:1fr;}
   .stats{grid-template-columns:1fr 1fr;}
-  .scan-ring, .scan-sweep, .scan-galaxy, .scan-drone{display:none;}
+  .scan-ring, .scan-sweep, .scan-galaxy, .scan-drone{
+    width:260px; height:260px; top:14px; right:-60px; left:auto; margin:0; opacity:.42;
+  }
   .brand-sub{display:none;}
   .brand-text{font-size:18px;}
 }
