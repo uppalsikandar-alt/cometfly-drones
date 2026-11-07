@@ -5,16 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CometFly Drones | Professional Drone Solutions — Sydney</title>
 <meta name="description" content="CometFly Drones — CASA RePL licensed drone inspection, mapping and survey services across Sydney Metropolitan, NSW.">
-<link rel="icon" type="image/png" href="logo-mark.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="site-header">
   <div class="nav">
     <a href="index.html" class="brand">
-      <img src="logo-mark.png" alt="CometFly Drones" class="brand-mark-img">
+      <img src="images/icon-mark-transparent.png" alt="CometFly Drones" class="brand-mark-img">
       <span>
-        <span class="brand-text">Comet<span>Fly</span> Drones</span>
+        <span class="brand-text">COMETFLY <span>DRONES</span></span>
         <span class="brand-sub">Professional Drone Solutions</span>
       </span>
     </a>
@@ -24,6 +23,7 @@
 <a class="" href="services.html">Services</a>
 <a class="" href="industries.html">Industries</a>
 <a class="" href="gallery.html">Gallery</a>
+<a class="" href="aerial-photos.html">Aerial Photos</a>
 <a class="" href="projects.html">Projects</a>
 <a class="" href="faq.html">FAQ</a>
 <a class="" href="contact.html">Contact</a>
@@ -35,22 +35,31 @@
 </header>
 
 <section class="hero">
-  <div class="hero-photo hero-slides"><img src="construction-progress-1.jpg" alt="CometFly Drones aerial construction site inspection" fetchpriority="high"><img src="roof-inspection.jpg" alt="Drone roof inspection" loading="eager" aria-hidden="true"><img src="solar-farm-inspection.jpg" alt="Solar farm drone inspection" loading="eager" aria-hidden="true"><img src="3d-model-building.jpg" alt="3D building model from drone photogrammetry" loading="eager" aria-hidden="true"><img src="substation-infrastructure.jpg" alt="Infrastructure drone inspection" loading="eager" aria-hidden="true"></div>
-  <div class="scan-galaxy"></div>
-  <div class="scan-drone"></div>
-  <div class="scan-ring"></div>
-  <div class="scan-sweep"></div>
+  <div class="hero-slides" aria-hidden="true">
+    <img class="active" src="images/hero-1.jpg" alt="">
+    <img src="images/hero-2.jpg" alt="">
+    <img src="images/hero-3.jpg" alt="">
+  </div>
+  <div class="hero-radar" aria-hidden="true">
+    <div class="scan-galaxy radar-stars"></div>
+    <div class="radar-sweep"></div>
+    <div class="radar-ring"></div>
+    <img class="radar-logo" src="images/hero-drone-glyph.png" alt="">
+  </div>
+  <div class="hero-dots" role="tablist" aria-label="Background photos">
+    <button class="active" aria-label="Photo 1"></button><button aria-label="Photo 2"></button><button aria-label="Photo 3"></button>
+  </div>
   <div class="wrap">
-    <div class="eyebrow">CASA-Accredited Remote Pilot · Sydney Metropolitan, NSW</div>
-    <h1>Aerial data you can build decisions on. <em>Flown. Mapped. Delivered.</em></h1>
-    <p class="lead">CometFly Drones provides professional drone inspection, mapping and survey support for construction, infrastructure, energy and property clients across Sydney — delivering accurate aerial data while reducing the need for traditional access methods.</p>
+    <div class="eyebrow">CASA RePL Licensed · Sydney Metropolitan, NSW</div>
+    <h1>Aerial data you can build decisions on. <em>Flown, mapped, delivered.</em></h1>
+    <p class="lead">CometFly Drones provides professional drone inspection, mapping and survey support for construction, infrastructure, energy and property clients across Sydney — safer and faster than manual methods.</p>
     <div class="hero-actions">
       <a href="quote.html" class="btn btn-primary">Request a Quote →</a>
       <a href="services.html" class="btn btn-ghost">View Services</a>
     </div>
     <div class="telemetry-strip">
-      <div><div class="tval">CASA RePL</div><div class="tlabel">Remote Pilot Licence</div></div>
-      <div><div class="tval">NSW</div><div class="tlabel">Sydney Metropolitan &amp; Regional Coverage</div></div>
+      <div><div class="tval">RePL</div><div class="tlabel">CASA Licensed Pilots</div></div>
+      <div><div class="tval">SYD</div><div class="tlabel">Metro Coverage, NSW</div></div>
       <div><div class="tval">2D/3D</div><div class="tlabel">Mapping &amp; Photogrammetry</div></div>
       <div><div class="tval">B2B</div><div class="tlabel">Commercial &amp; Government</div></div>
     </div>
@@ -62,14 +71,14 @@
     <div class="section-head reveal">
       <div class="eyebrow">What We Do</div>
       <h2>Two capabilities. One flight.</h2>
-      <p>From visual inspections to detailed aerial mapping, CometFly Drones uses advanced drone technology to capture accurate, useful data tailored to the asset, site and project requirements.</p>
+      <p>From visual condition checks to survey-grade mapping data, every mission is planned around the asset and the decision it needs to support.</p>
     </div>
     <div class="grid grid-2">
       <div class="card reveal">
         <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.5 8.2 8 9 4.5-.8 8-4 8-9V6l-8-3Z"/></svg></div>
         <div class="num">01 / INSPECTION</div>
         <h3>Drone Inspection Services</h3>
-        <p>Safe, efficient and high-quality aerial inspections for commercial, industrial and infrastructure assets — helping clients assess conditions while reducing the need for costly, difficult or high-risk manual access.</p>
+        <p>Safe, efficient, high-quality aerial inspections for commercial, industrial and infrastructure assets — reducing the need for costly or high-risk manual access.</p>
         <ul style="margin-top:16px; display:flex; flex-direction:column; gap:8px;">
           <li style="font-size:13.5px; color:var(--grey);">→ Roof &amp; building inspections</li>
           <li style="font-size:13.5px; color:var(--grey);">→ Infrastructure inspections</li>
@@ -81,11 +90,10 @@
         <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg></div>
         <div class="num">02 / MAPPING</div>
         <h3>Mapping &amp; Survey Support</h3>
-        <p>High-quality aerial data captured using advanced drone technology and photogrammetry to support planning, surveying, engineering, construction and asset-management projects.</p>
+        <p>Accurate aerial data captured with advanced drone technology and photogrammetry to support planning, surveying, engineering and construction projects.</p>
         <ul style="margin-top:16px; display:flex; flex-direction:column; gap:8px;">
           <li style="font-size:13.5px; color:var(--grey);">→ Orthomosaic mapping</li>
-          <li style="font-size:13.5px; color:var(--grey);">→ Photogrammetry &amp; 3D modelling</li>
-          <li style="font-size:13.5px; color:var(--grey);">→ Topographic mapping</li>
+          <li style="font-size:13.5px; color:var(--grey);">→ 3D models &amp; topographic mapping</li>
           <li style="font-size:13.5px; color:var(--grey);">→ Stockpile volume calculations</li>
         </ul>
       </div>
@@ -96,15 +104,32 @@
 <section class="section-alt">
   <div class="wrap">
     <div class="section-head reveal">
+      <div class="eyebrow">From the Field</div>
+      <h2>See what our drones capture.</h2>
+      <p>High-resolution inspection imagery, orthomosaic maps and 3D models — delivered in formats your team can use straight away.</p>
+    </div>
+    <div class="photo-strip reveal">
+      <div class="ph-img"><img src="images/construction-progress-2.jpg" alt="Aerial construction progress capture"><div class="ph-tag">Construction Monitoring</div></div>
+      <div class="ph-img"><img src="images/roof-inspection.jpg" alt="Drone roof inspection"><div class="ph-tag">Roof Inspection</div></div>
+      <div class="ph-img"><img src="images/solar-farm-inspection.jpg" alt="Solar farm drone inspection"><div class="ph-tag">Solar Farm</div></div>
+      <div class="ph-img"><img src="images/orthomosaic-2d-map.jpg" alt="2D orthomosaic map"><div class="ph-tag">Orthomosaic</div></div>
+      <div class="ph-img"><img src="images/3d-model-building.jpg" alt="3D building model"><div class="ph-tag">3D Model</div></div>
+    </div>
+    <div style="margin-top:22px;"><a href="gallery.html" class="btn btn-dark">View full gallery →</a></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
       <div class="eyebrow">Industries</div>
-      <h2>Supporting industries where accurate aerial data matters.</h2>
-      <p>CometFly Drones provides professional drone inspection, mapping and data acquisition solutions across a range of commercial, industrial and infrastructure sectors.</p>
+      <h2>Trusted across sectors that can't afford guesswork.</h2>
     </div>
     <div class="grid grid-4">
-      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2"/></svg></div><h3 style="font-size:15.5px;">Construction &amp; Civil Engineering</h3><p style="margin-top:8px;">Aerial inspections, progress monitoring, site documentation and mapping support. Visual inspections and aerial data to support engineering assessment and project planning.</p></div>
-      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6" fill="currentColor"/></svg></div><h3 style="font-size:15.5px;">Surveying &amp; Spatial</h3><p style="margin-top:8px;">Drone-based mapping, photogrammetry and aerial data capture to support surveying and spatial projects.</p></div>
-      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/></svg></div><h3 style="font-size:15.5px;">Renewable Energy &amp; Solar</h3><p style="margin-top:8px;">Efficient aerial inspections and visual documentation of solar and renewable energy assets.</p></div>
-      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg></div><h3 style="font-size:15.5px;">Mining &amp; Quarry</h3><p style="margin-top:8px;">Aerial imagery, site documentation, stockpile measurements and mapping support.</p></div>
+      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2"/></svg></div><h3 style="font-size:15.5px;">Construction &amp; Civil Engineering</h3></div>
+      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6" fill="currentColor"/></svg></div><h3 style="font-size:15.5px;">Surveying &amp; Spatial</h3></div>
+      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/></svg></div><h3 style="font-size:15.5px;">Renewable Energy &amp; Solar</h3></div>
+      <div class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg></div><h3 style="font-size:15.5px;">Mining &amp; Quarry</h3></div>
     </div>
     <div style="margin-top:20px;"><a href="industries.html" class="btn btn-dark">See all industries →</a></div>
   </div>
@@ -116,14 +141,25 @@
       <div class="eyebrow">Process</div>
       <h2>How a mission runs.</h2>
     </div>
-    <div class="process-wrap">
     <ol class="process reveal">
       <li><div><h4>Brief &amp; site assessment</h4><p>We confirm the asset, objective and airspace requirements, then plan the flight.</p></div></li>
       <li><div><h4>Flight &amp; data capture</h4><p>CASA RePL licensed pilots fly the mission and capture imagery or survey data on site.</p></div></li>
       <li><div><h4>Processing</h4><p>Imagery is processed into inspection reports, orthomosaics, 3D models or volumetric data.</p></div></li>
       <li><div><h4>Delivery</h4><p>Findings are delivered in a clear, usable format for your team, engineers or clients.</p></div></li>
     </ol>
-    <div class="reveal ph-img process-img"><img src="process-photogrammetry.jpg" alt="Drone photogrammetry: overlapping aerial images processed into a 3D site model"><div class="ph-tag">Capture &rarr; process &rarr; deliver</div></div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:center; gap:60px;">
+      <div class="reveal ph-img" style="aspect-ratio:4/3;"><img src="images/real-estate-property.jpg" alt="Aerial stock photo of Sydney property"><div class="ph-tag">Aerial Stock Photos</div></div>
+      <div class="reveal">
+        <div class="eyebrow">Aerial Stock Photos</div>
+        <h2 style="font-size:clamp(24px,3.2vw,32px); margin-bottom:18px;">Need aerial imagery without booking a flight?</h2>
+        <p style="font-size:15.5px;">License high-resolution drone photos and footage direct from our library — for websites, marketing, reports, tenders and editorial use. Simple packages, full-resolution files and a written licence.</p>
+        <div style="margin-top:22px;"><a href="aerial-photos.html" class="btn btn-primary">Browse Aerial Photos →</a></div>
+      </div>
     </div>
   </div>
 </section>
@@ -143,11 +179,18 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="brand">
-          <img src="logo-mark-white.png" alt="CometFly Drones" class="brand-mark-img">
-          <span class="brand-text">Comet<span>Fly</span> Drones</span>
+        <a href="index.html" class="brand" style="color:#fff;">
+          <img src="images/icon-mark-transparent.png" alt="CometFly Drones" class="brand-mark-img">
+          <span class="brand-text">COMETFLY <span>DRONES</span></span>
         </a>
-        <p>CASA RePL licensed drone inspection, mapping and survey supporting services across Sydney Metropolitan, NSW.</p>
+        <p>CASA RePL licensed drone inspection, mapping and survey services across Sydney Metropolitan, NSW.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="YouTube">yt</a>
+          <a href="#" aria-label="Google Business Profile">G</a>
+        </div>
       </div>
       <div>
         <h5>Company</h5>
@@ -159,6 +202,7 @@
       <div>
         <h5>Resources</h5>
         <a href="gallery.html">Gallery</a>
+        <a href="aerial-photos.html">Aerial Stock Photos</a>
         <a href="faq.html">FAQ</a>
         <a href="quote.html">Request a Quote</a>
         <a href="contact.html">Contact</a>
@@ -179,4 +223,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
