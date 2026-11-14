@@ -586,10 +586,19 @@ section{padding:88px 0;}
 @media (max-width:760px){
   .grid-3 > :last-child:nth-child(odd){grid-column:auto;}
 }
-/* tablet / small laptop: menu button + dropdown panel */
-@media (max-width:1180px){
+/* landscape tablets / small laptops: keep links inline, just tighter */
+@media (min-width:1040px) and (max-width:1240px){
+  .nav{padding:0 20px;}
+  .nav-links{gap:16px;}
+  .nav-links a{font-size:13px;}
+  .nav-cta{padding:10px 14px !important; font-size:11.5px;}
+  .brand-wordmark{height:30px;}
+  .brand-mark-img{width:38px; height:38px;}
+}
+/* portrait tablets / phones: menu button + dropdown panel */
+@media (max-width:1039px){
   .nav{position:relative;}
-  .nav-toggle{display:flex; align-items:center; justify-content:center;}
+  .nav-toggle{display:flex; align-items:center; justify-content:center; touch-action:manipulation; -webkit-tap-highlight-color:transparent;}
   .nav-links{
     display:none; position:absolute; top:100%; left:0; right:0;
     background:#05080A; border-bottom:1px solid var(--line-dark);
