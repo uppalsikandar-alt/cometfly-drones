@@ -113,6 +113,8 @@ input,select,textarea{font-family:inherit;}
 .brand-mark-img{width:44px; height:44px; object-fit:contain;}
 .brand-wordmark{height:34px; width:auto; object-fit:contain;}
 .site-footer .brand-wordmark{height:30px;}
+.brand-lockup{display:flex; flex-direction:column; align-items:flex-start; gap:3px;}
+.brand-lockup .brand-sub{margin-top:0; color:#8A94A0; font-size:9.5px; white-space:nowrap;}
 .brand-text{
   font-family:var(--font-display); font-weight:800;
   font-size:20px; letter-spacing:-.01em; line-height:1.1;
@@ -645,6 +647,7 @@ html,body{overflow-x:clip;}
     width:240px; height:240px; top:24px; right:12px; left:auto; margin:0; opacity:.42;
   }
   .brand-wordmark{height:28px;}
+  .brand-lockup .brand-sub{display:none;}
   .brand-mark-img{width:38px; height:38px;}
   .nav{padding:0 18px;}
 }
